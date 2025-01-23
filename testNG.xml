@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Test Suite">
+   <test name="Test with Parameters">
+       <parameter name="browser" value="chrome"/>
+       <classes>
+           <class name="com.selenium.testcase.DemoClass"/>
+           <class name="com.selenium.testcase.HelloJava"/>
+           <class name="com.selenium.testcase.SeleniumClassDemo"/>
+           <class name="com.selenium.testcase.InternetClass"/>
+       </classes>
+   </test>
+</suite>
